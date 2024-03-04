@@ -3,10 +3,11 @@
   }
   
   body {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     line-height: 1.5;
+    border: 1px solid black;
   }
   
   .header {
@@ -23,6 +24,7 @@
     width: 50%;
     height: 200px;
     border-radius: 50%;
+    border: 1px solid black;
     
 
 }
@@ -36,23 +38,24 @@
 .header .nav {
     height: auto;
            line-height: auto;
-           border: 1px  solid green;
+           border: 1px  solid fade;
         	  float:right;
+              margin: 10PX;
 
 }
 
 .header .nav ul {
     list-style: none;
             width: auto;
-            border: 1px solid red;
+            border: 1px solid fade;
 }
 
 .header .nav ul li {
     display: inline;
           font-size: 100%;
-          color:blue;	
+          color: rgba(0, 0, 0, 0.274);	
           
-          border : 1px solid yellow;
+          border : 1px solid fade;
 }
 
 .header .icon-name {
@@ -60,21 +63,29 @@
 }
 
 .hero-banner {
-    float: right;
+    display: flex;
+    justify-content: end;
     border: 1px solid black;
     width: 100%;
     background-color: antiquewhite;
 }
+.about-me-section {
+    display: flex;
+      }
+
   h1,
   h2,
   h3,
   h4,
   h5,
   h6 {
-    margin: 0;
+    margin: 50px;
   }
   
   p {
-    margin: 0;
+    margin: 20px;
   }
   
+  .contact-section {
+    display: flex;
+  }
