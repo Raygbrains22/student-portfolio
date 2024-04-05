@@ -116,10 +116,12 @@ body {
   line-height: 1.6;
 }
 
-/* Work section styles */
-.work-section {
-  margin-top: 30px;
+.about-me-section,
+.work-section,
+.contact-section {
+  margin-bottom: 50px; /* Adjust the spacing between sections */
 }
+
 
 .work-section .section-content {
   display: flex;
@@ -183,6 +185,13 @@ body {
   display: block;
   text-decoration: none;
   color: inherit;
+}
+
+.section-divider {
+  border: none;
+  height: 2px; /* Adjust the height of the line */
+  background-color: #ccc; /* Color of the line */
+  margin: 20px 0; /* Adjust the top and bottom margins */
 }
 
 /* Media query for smaller screens */
